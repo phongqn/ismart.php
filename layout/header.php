@@ -3,7 +3,7 @@
 
 <head>
     <title>ISMART STORE</title>
-    <base href="http://https://ismart-php.herokuapp.com/" />
+    <?php base_url(); ?>
     <!-- <base href="http://localhost/projectIsmart/" /> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
