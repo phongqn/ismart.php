@@ -58,7 +58,7 @@ get_header();
                                             <span class="old"><?php echo currency_format($item['original_price']); ?></span>
                                         </div>
                                         <div class="action clearfix">
-                                            <a href="?mod=cart&action=add&id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
+                                            <a href="?mod=cart&action=add&product_id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
                                             <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="Mua ngay" class="buy-now fl-right">Mua ngay</a>
                                         </div>
                                     </li>
@@ -96,7 +96,7 @@ get_header();
                                             <span class="old"><?php echo currency_format($item['original_price']); ?></span>
                                         </div>
                                         <div class="action clearfix">
-                                            <a href="?mod=cart&action=add&id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
+                                            <a href="?mod=cart&action=add&product_id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
                                             <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="Mua ngay" class="buy-now fl-right">Mua ngay</a>
                                         </div>
                                     </li>
@@ -172,7 +172,7 @@ get_header();
                                             <span class="old"><?php echo currency_format($item['original_price']); ?></span>
                                         </div>
                                         <div class="action clearfix">
-                                            <a href="?mod=cart&action=add&id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
+                                            <a href="?mod=cart&action=add&product_id=<?php echo $item['product_id']; ?>" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm giỏ hàng</a>
                                             <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="Mua ngay" class="buy-now fl-right">Mua ngay</a>
                                         </div>
                                     </li>
