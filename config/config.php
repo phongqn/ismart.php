@@ -11,9 +11,9 @@
  * 
  */
 
-// $config['base_url'] = "https://ismart-php.herokuapp.com/";
+$config['base_url'] = "https://ismart-php.herokuapp.com/";
 
-$config['base_url'] = "http://localhost/projectIsmart/";
+// $config['base_url'] = "http://localhost/projectIsmart/";
 
 $config['default_module'] = 'home';
 $config['default_controller'] = 'index';

@@ -12,8 +12,8 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "http://localhost/projectIsmart/admin/";
-// $config['base_url'] = "http://ismart-php.herokuapp.com/admin/";
+// $config['base_url'] = "http://localhost/projectIsmart/admin/";
+$config['base_url'] = "http://ismart-php.herokuapp.com/admin/";
 
 
 $config['default_module'] = 'home';
