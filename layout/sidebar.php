@@ -59,7 +59,7 @@
                     ?>
                             <li class="clearfix">
                                 <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title=" <?php echo $item['product_name']; ?>" class="thumb fl-left">
-                                    <img src="Admin/<?php echo $item['product_thumb'] ?>" alt="">
+                                    <img src="admin/<?php echo $item['product_thumb'] ?>" alt="">
                                 </a>
                                 <div class="info fl-right">
                                     <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>

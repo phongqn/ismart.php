@@ -45,7 +45,7 @@ get_header();
                             ?>
                                 <li style="text-align: center">
                                     <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb" style="display: inline-block; width: 125px; height: 125px">
-                                        <img src="Admin/<?php echo $item['product_thumb'] ?>">
+                                        <img src="admin/<?php echo $item['product_thumb'] ?>">
                                     </a>
                                     <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name'] ?></a>
                                     <div class="price">

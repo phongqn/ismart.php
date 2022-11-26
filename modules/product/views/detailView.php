@@ -20,17 +20,17 @@ get_header();
                 <div class="section-detail clearfix">
                     <div class="thumb-wp fl-left">
                         <a href="" title="" id="main-thumb">
-                            <img id="zoom" style=" max-width: 350px; max-heigh: 800px" src="Admin/<?php echo $info_product['product_thumb']; ?>" data-zoom-image="Admin/<?php echo $info_product['product_thumb']; ?>" />
+                            <img id="zoom" style=" max-width: 350px; max-heigh: 800px" src="admin/<?php echo $info_product['product_thumb']; ?>" data-zoom-image="admin/<?php echo $info_product['product_thumb']; ?>" />
                         </a>
                         <div id="list-thumb">
-                            <a href="" data-image="Admin/<?php echo $info_product['product_thumb'] ?>" data-zoom-image="Admin/<?php echo $info_product['product_thumb'] ?>    ">
-                                <img style="width: 70px; height: 70px; max-width: 70px; min-width: 70px" id="zoom" src="Admin/<?php echo $info_product['product_thumb'] ?>" />
+                            <a href="" data-image="admin/<?php echo $info_product['product_thumb'] ?>" data-zoom-image="admin/<?php echo $info_product['product_thumb'] ?>    ">
+                                <img style="width: 70px; height: 70px; max-width: 70px; min-width: 70px" id="zoom" src="admin/<?php echo $info_product['product_thumb'] ?>" />
                             </a>
                             <?php
                             foreach ($list_product_image as $item) {
                             ?>
-                                <a href="" data-image="Admin/public/uploads/product/<?php echo $item['link_image'] ?>" data-zoom-image="Admin/public/uploads/product/<?php echo $item['link_image'] ?>">
-                                    <img style="width: 70px; height: 70px; max-width: 70px; min-width: 70px" id="zoom" src="Admin/public/uploads/product/<?php echo $item['link_image'] ?>" />
+                                <a href="" data-image="admin/public/uploads/product/<?php echo $item['link_image'] ?>" data-zoom-image="admin/public/uploads/product/<?php echo $item['link_image'] ?>">
+                                    <img style="width: 70px; height: 70px; max-width: 70px; min-width: 70px" id="zoom" src="admin/public/uploads/product/<?php echo $item['link_image'] ?>" />
                                 </a>
                             <?php
                             }
@@ -38,7 +38,7 @@ get_header();
                         </div>
                     </div>
                     <div class="thumb-respon-wp fl-left">
-                        <img src="Admin/<?php echo $info_product['product_thumb']; ?>" alt="">
+                        <img src="admin/<?php echo $info_product['product_thumb']; ?>" alt="">
                     </div>
                     <div class="info fl-right">
                         <h3 class="product-name"><?php echo $info_product['product_name']; ?></h3>
@@ -97,7 +97,7 @@ get_header();
                             ?>
                                 <li>
                                     <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                        <img src="Admin/<?php echo $item['product_thumb']; ?>">
+                                        <img src="admin/<?php echo $item['product_thumb']; ?>">
                                     </a>
                                     <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name'] ?></a>
                                     <div class="price">

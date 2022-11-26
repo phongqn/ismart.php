@@ -25,7 +25,7 @@
                         ?>
                             <li class="clearfix">
                                 <a href="?mod=post&action=detail" title="" class="thumb fl-left">
-                                    <img src="Admin/<?php echo $item['post_thumb'] ?>" alt="">
+                                    <img src="admin/<?php echo $item['post_thumb'] ?>" alt="">
                                 </a>
                                 <div class="info fl-right">
                                     <a href="?mod=post&action=detail&post_id=<?php echo $item['post_id']; ?>" title="" class="title"><?php echo $item['post_title'] ?></a>

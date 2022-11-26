@@ -43,7 +43,7 @@ get_header();
                             ?>
                                     <li>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img style="max-height:auto" src="Admin/<?php echo $item['product_thumb']; ?>">
+                                            <img style="max-height:auto" src="admin/<?php echo $item['product_thumb']; ?>">
                                         </a>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>
                                         <div class="price">
@@ -81,7 +81,7 @@ get_header();
                             ?>
                                     <li>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img style="max-height:auto" src="Admin/<?php echo $item['product_thumb']; ?>">
+                                            <img style="max-height:auto" src="admin/<?php echo $item['product_thumb']; ?>">
                                         </a>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>
                                         <div class="price">
@@ -119,7 +119,7 @@ get_header();
                             ?>
                                     <li>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img style="max-height:auto" src="Admin/<?php echo $item['product_thumb']; ?>">
+                                            <img style="max-height:auto" src="admin/<?php echo $item['product_thumb']; ?>">
                                         </a>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>
                                         <div class="price">
@@ -157,7 +157,7 @@ get_header();
                             ?>
                                     <li>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img style="max-height:auto" src="Admin/<?php echo $item['product_thumb']; ?>">
+                                            <img style="max-height:auto" src="admin/<?php echo $item['product_thumb']; ?>">
                                         </a>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>
                                         <div class="price">

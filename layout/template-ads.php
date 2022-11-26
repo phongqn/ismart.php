@@ -4,7 +4,7 @@
     ?>
         <strong> <a href="<?php echo $item['ads_link'] ?>" target="_blank" class=""> <?php echo $item['ads_name'] ?> </a> </strong>
         <a href="<?php echo $item['ads_link'] ?>" target="_blank" class="thumb">
-            <img src="Admin/<?php echo $item['ads_thumb']; ?>" alt="">
+            <img src="admin/<?php echo $item['ads_thumb']; ?>" alt="">
         </a>
     <?php } ?>
 </div>

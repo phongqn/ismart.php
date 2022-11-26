@@ -40,7 +40,7 @@ get_header();
                                     <td><?php echo $item['product_code'] ?></td>
                                     <td>
                                         <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img src="Admin/<?php echo $item['product_thumb']; ?>" alt="" style="width:300px">
+                                            <img src="admin/<?php echo $item['product_thumb']; ?>" alt="" style="width:300px">
                                         </a>
                                     </td>
                                     <td>
