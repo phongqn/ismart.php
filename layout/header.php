@@ -3,6 +3,8 @@
 
 <head>
     <title>ISMART STORE</title>
+    <base href="http://https://ismart-php.herokuapp.com/" />
+    <!-- <base href="http://localhost/projectIsmart/" /> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/css/bootstrap/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
@@ -34,17 +36,17 @@
                                     <a href="?" title="">Trang chủ</a>
                                 </li>
                                 <li>
-                                    <a href="?mod=product" title="">Sản phẩm</a>
+                                    <a href="san-pham" title="">Sản phẩm</a>
                                 </li>
                                 <li>
-                                    <a href="?mod=post" title="">Blog</a>
+                                    <a href="bai-viet" title="">Blog</a>
                                 </li>
 
                                 <li>
-                                    <a href="?mod=page&page_id=1" title="">Giới thiệu</a>
+                                    <a href="gioi-thieu-1" title="">Giới thiệu</a>
                                 </li>
                                 <li>
-                                    <a href="?mod=page&page_id=4" title="">Liên hệ</a>
+                                    <a href="lien-he-2" title="">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,14 +69,14 @@
                                 <span class="phone">078.804.8699</span>
                             </a>
                             <div id="btn-respon" class="fl-right"><i class="fa fa-bars" aria-hidden="true"></i></div>
-                            <a href="?mod=cart" title="giỏ hàng" id="cart-respon-wp" class="fl-right">
+                            <a href="gio-hang" title="giỏ hàng" id="cart-respon-wp" class="fl-right">
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                 <span id="num"><?php if (!empty($_SESSION['cart']['info'])) echo $_SESSION['cart']['info']['num_order'] ?></span>
                             </a>
                             <div id="cart-wp" class="fl-right">
                                 <div id="btn-cart">
 
-                                    <a href="?mod=cart" class=""> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                    <a href="gio-hang" class=""> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                                     <span id="num">
                                         <?php
                                         if (!empty($_SESSION['cart']['info']))
@@ -94,11 +96,11 @@
                                             foreach ($_SESSION['cart']['buy'] as $item) {
                                             ?>
                                                 <li class="clearfix">
-                                                    <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb fl-left">
+                                                    <a href="san-pham/<?php echo $item['product_link'] ?>-<?php echo $item['product_id'] ?>.html" title="" class="thumb fl-left">
                                                         <img src="admin/<?php echo $item['product_thumb']; ?>" alt="">
                                                     </a>
                                                     <div class="info fl-right">
-                                                        <a href="?mod=product&action=detail&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['product_name']; ?></a>
+                                                        <a href="san-pham/<?php echo $item['product_link'] ?>-<?php echo $item['product_id'] ?>.html" title="" class="product-name"><?php echo $item['product_name']; ?></a>
                                                         <p class="price"><?php echo currency_format($item['original_price']) ?></p>
                                                         <p class="qty">Số lượng: <span><?php if (!empty($_SESSION['cart']['buy'])) echo $_SESSION['cart']['buy'][$item['product_id']]['qty']; ?></span></p>
                                                     </div>
@@ -113,8 +115,8 @@
                                             <p class="price fl-right"><?php if (!empty($_SESSION['cart']['info'])) echo currency_format($_SESSION['cart']['info']['total']); ?></p>
                                         </div>
                                         <div class="action-cart clearfix">
-                                            <a href="?mod=cart" title="Giỏ hàng" class="view-cart fl-left">Giỏ hàng</a>
-                                            <a href="?mod=checkout" title="Thanh toán" class="checkout fl-right">Thanh toán</a>
+                                            <a href="gio-hang" title="Giỏ hàng" class="view-cart fl-left">Giỏ hàng</a>
+                                            <a href="thanh-toan" title="Thanh toán" class="checkout fl-right">Thanh toán</a>
                                         </div>
                                     </div>
                                 <?php
