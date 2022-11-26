@@ -15,16 +15,15 @@
  * database: Tên database kết nối
  */
 
-$db = array(
-    'hostname' => 'localhost',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'ismartt',
-);
 // $db = array(
-//     'hostname' => 'us-cdbr-east-06.cleardb.net',
-//     'username' => 'bf8a9d50d3cbd5',
-//     'password' => '4466bc43',
-//     'database' => 'heroku_3439b71c35b4fc4',
+//     'hostname' => 'localhost',
+//     'username' => 'root',
+//     'password' => '',
+//     'database' => 'ismartt',
 // );
-
+$db = array(
+    'hostname' => 'us-cdbr-east-06.cleardb.net',
+    'username' => 'bb2c20f3e0caa9',
+    'password' => 'f3311c5f',
+    'database' => 'heroku_de51baac004998b',
+);
